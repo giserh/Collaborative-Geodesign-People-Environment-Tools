@@ -1,0 +1,386 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Collaborative Geodesign &mdash; Lightning Talk at MN GIS/LIS 26th Annual Conference, Oct. 26&ndash;28, 2016</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night.css">
+    <link rel="stylesheet" href="css/pete-night.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <!-- Front Matter -->
+
+        <section>
+          <h1>Collaborative Geodesign</h1>
+          <p class="h3">People, Environment, and Tools</p>
+          <p>Peter Wiringa, University of Minnesota<br><a href="mailto:wiringa@umn.edu">wiringa@umn.edu</a></p>
+        </section>
+
+        <!-- Context -->
+        <section>
+          <section>
+            <h1>Some context</h1>
+          </section>
+
+          <section>
+            <h1>Project: New Agricultural Bioeconomy</h1>
+            <blockquote>
+              <p>&ldquo;&hellip;[provides] state-of-the-art technology for exploring new opportunities to enhance economy, environment, and community vitality in agricultural regions of Minnesota.&rdquo;
+              <footer>
+                &mdash; <a href="http://newagbioeconomy.umn.edu/">New Ag. Bioeconomy website</a>
+              </footer>
+            </blockquote>
+
+            <aside class="notes">
+              <p>transdisciplinary, multi-year</p>
+              <ul>
+                <li>geography</li>
+                <li>urban planning</li>
+                <li>soil, water, climate</li>
+                <li>agronomy and plant genetics</li>
+                <li>applied economics</li>
+                <li>landscape architecture</li>
+                <li>computer science</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section>
+            <h1>AOI: Seven Mile Creek</h1>
+            <p>24,000 acres of fun!</p>
+            <img src="img/7mc-aoi.png" alt="Seven Mile Creek area">
+
+            <aside class="notes">
+              <ul>
+                <li>St. Peter, MN</li>
+                <li>Minnesota River</li>
+                <li>sediment</li>
+              </ul>
+            </aside>
+          </section>
+        </section>
+
+        <!-- Definitions -->
+
+        <section>
+          <section>
+            <h1>Definitions</h1>
+          </section>
+
+          <section>
+            <h1>Geodesign</h1>
+            <blockquote cite="http://www.esri.com/news/arcuser/0410/geodesign.html">
+              <p>&ldquo;Geodesign is a design and planning method which tightly couples the creation of design proposals with impact simulations informed by geographic contexts.&rdquo;</p>
+              <footer>&mdash; Michael Flaxman</footer>
+            </blockquote>
+
+            <aside class="notes">
+              Harvard GSD
+            </aside>
+          </section>
+
+          <section>
+            <h1>Collaborative geodesign</h1>
+            <blockquote cite="http://www.esri.com/news/arcwatch/0412/a-conversation-with-carl-steinitz.html">
+              <p>&ldquo;&hellip;[a] framework for design projects which required iteration, feedback, and collaboration&rdquo;</p>
+              <footer>&mdash; Carl Steinitz</footer>
+            </blockquote>
+
+            <aside class="notes">
+              <ul>
+                <li>These aren't just for the participants</li>
+                <li>App owners/devs need to do this, too</li>
+              </ul>
+            </aside>
+          </section>
+        </section>
+
+        <section>
+          <h1>Three core areas</h1>
+          <ol>
+            <li class="fragment">People</li>
+            <li class="fragment">Environment</li>
+            <li class="fragment">Tool(s)</li>
+          </ol>
+        </section>
+
+        <!-- People -->
+
+        <section>
+          <section>
+            <h1>1. People</h1>
+          </section>
+
+          <section>
+            <h1>Put people first</h1>
+            <ul>
+              <li>Stakeholder engagement</li>
+              <li>Build community</li>
+              <li>Build trust</li>
+              <li>Work together</li>
+            </ul>
+            <aside class="notes">
+              <ul>
+                <li>Listen first</li>
+                <li>Listen more</li>
+                <li>Respond to concerns</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section>
+            <h1>People need tasks and goals</h1>
+            <p>There's a reason you need a collaborative geodesign tool, and a reason your stakeholders should be using it. Don't put something in front of them without a clear task or goals, grounded in the real world.</p>
+          </section>
+
+          <section>
+            <h1>Why belabor this?</h1>
+            <p>Every project is different.</p>
+            <p>Every team is different.</p>
+            <p>Do what you need to do.</p>
+          </section>
+        </section>
+
+        <!-- Environment -->
+        <section>
+          <section>
+            <h1>2. Environment</h1>
+          </section>
+
+          <section>
+            <h1>Plan Ahead</h1>
+            <p>Cramped quarters? Wide open spaces? As with any event, get familiar with the space(s) you'll have to work in ahead of time, if possible.</p>
+          </section>
+
+          <section>
+            <h1>Comfort zones</h1>
+            <ul>
+              <li class="fragment">People may not know each other,</li>
+              <li class="fragment">they may not even like each other,</li>
+              <li class="fragment">but they need to be able to collaborate.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h1>What medium?<br>Or, media?</h1>
+            <ul>
+              <li class="fragment">Pencil &amp; paper</li>
+              <li class="fragment">Whiteboard</li>
+              <li class="fragment">Tablet</li>
+              <li class="fragment">Large touchscreen</li>
+            </ul>
+          </section>
+
+          <section>
+            <h1>Our choice</h1>
+            <ul>
+              <li>55" touchscreens</li>
+              <li>Rolling cases</li>
+              <li>Windows 8.1 (not by choice?)</li>
+              <li>Chrome</li>
+          </section>
+
+          <section>
+            <img src="img/P1050444-1440x1080.jpg" alt="Group of stakeholders working around a 55&rdquo; touchscreen">
+          </section>
+        </section>
+
+        <!-- Tools -->
+
+        <section>
+          <section>
+            <h1>3. Tools</h1>
+          </section>
+
+          <section>
+            <h1>The right tool(s)&hellip;</h1>
+            <ul>
+              <li class="fragment">&hellip;support the people (and their task)</li>
+              <li class="fragment">&hellip;work in the environment</li>
+              <li class="fragment">&hellip;allow for iteration, feedback, and collaboration</li>
+            </ul>
+          </section>
+
+          <section>
+            <h1>Support the people</h1>
+            <ul>
+              <li class="fragment">Usable tools</li>
+              <li class="fragment">Accessible tools</li>
+              <li class="fragment">Tools that support &ldquo;mistakes&rdquo;</li>
+              <li class="fragment">Anticipate (or observe) needs</li>
+              <li class="fragment">Tools that provide valuable reference data (layers)</li>
+              <li class="fragment">Scenarios that they can understand and run with</li>
+            </ul>
+            <aside class="notes">
+              <ul>
+                <li>simple is good</li>
+                <li>color vision deficiency</li>
+                <li>the undo button</li>
+                <li>don't make what they're gonna do tedious</li>
+                <li>more than a basemap</li>
+                <li>ground it in the real world</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section>
+            <h1>Work in the environment</h1>
+            <ul>
+              <li class="fragment">Where are you taking the tool?</li>
+              <li class="fragment">Can you even get the tool in the door?</li>
+              <li class="fragment">Power?</li>
+              <li class="fragment">Network?</li>
+            </ul>
+
+            <aside class="notes">
+              <ul>
+                <li>elevators</li>
+                <li>power strips and extension cords</li>
+                <li>test in first; network cables; bring your own?</li>
+                <li>furniture movers, queen beds and stairs</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section>
+            <h1>Iteration</h1>
+            <ul>
+              <li class="fragment">Results&hellip;just like that!</li>
+              <li class="fragment">Refine the previous design</li>
+              <li class="fragment">Load older designs</li>
+            </ul>
+            <aside class="notes">
+              <ul>
+                <li>speed</li>
+                <li>&ldquo;Congrats! Would you like to start over?&rdquo;</li>
+                <li>continue from earlier</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section>
+            <h1>Feedback</h1>
+            <ul>
+              <li class="fragment">Design results</li>
+              <li class="fragment">Comparative results</li>
+              <li class="fragment">Not fixed in time (e.g., price)</li>
+            </ul>
+            <aside class="notes">
+              <ul>
+                <li>individual design</li>
+                <li>side-by-side</li>
+                <li>price sliders</li>
+              </ul>
+            </aside>
+          </section>
+
+          <section>
+            <img src="img/design-results.png" alt="Results display for a single design">
+          </section>
+          <section>
+            <img src="img/design-results-compare.png" alt="Results display for multiple designs">
+          </section>
+          <section>
+            <img src="img/price-sliders.png" alt="Price control slider tools">
+          </section>
+
+          <section>
+            <h1>Collaboration</h1>
+            <ul>
+              <li>You laid the groundwork, right?</li>
+              <li>Keep it simple, but expose a lot</li>
+              <li>Groups should be able to mediate themselves</li>
+              <li>Keep someone from your team available to assist</li>
+              <li>Consider having someone softly shadow each group</li>
+            </ul>
+            <aside class="notes">
+              <ul>
+                <li>people should be familiar with one another</li>
+                <li>legends, printouts, tape</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h1>Support by testing and observing</h1>
+            <ul>
+              <li>There's no substitute for actual users</li>
+              <li>They need to iterate, so do you</li>
+              <li>Observe, adjust, repeat</li>
+              <li>Interrogate their needs</li>
+              <li>Be gentle</li>
+            </ul>
+            <aside class="notes">
+              <ul>
+                <li>usability test with a real audience</li>
+                <li>kinda agile; expect changes</li>
+                <li>&ldquo;What would help you&hellip;&rdquo;</li>
+                <li>It's the tool, not the users</li>
+              </ul>
+            </aside>
+          </section>
+        </section>
+
+        <section>
+          <h1>Bonus ideas</h1>
+          <ul>
+            <li>Timestamp everything</li>
+            <li>Allow playbacks</li>
+          </ul>
+          <aside class="notes">
+            <ul>
+              <li>Do you have a human geographer waiting for results?</li>
+              <li>Timestamps: Make designs ordinal</li>
+              <li>Play-by-play: Replay group steps</li>
+            </ul>
+          </aside>
+        </section>
+
+        <!-- Fin -->
+
+        <section>
+          <h1>Time's up</h1>
+          <p>Thanks for coming. Any questions?<br><br></p>
+          <p>Slides: <a href="http://z.umn.edu/collabgeodesign" title="copy of these slides">z.umn.edu/collabgeodesign</a><br><br></p>
+          <p><a href="mailto:wiringa@umn.edu">wiringa@umn.edu</a><br><a href="http://wiringa.io/">wiringa.io</a></p>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script src="plugin/zoom-js/zoom.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>

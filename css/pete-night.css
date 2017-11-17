@@ -1,0 +1,60 @@
+/**
+ * Style tweaks against the night theme
+ */
+
+/*********************************************
+ * HEADERS AS CLASSES
+ *********************************************/
+.reveal .h1,
+.reveal .h2,
+.reveal .h3,
+.reveal .h4,
+.reveal .h5,
+.reveal .h6 {
+  margin: 0 0 20px 0;
+  color: #eee;
+  font-family: "Montserrat", Impact, sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal .h1 {
+  font-size: 3.77em; }
+
+.reveal .h2 {
+  font-size: 2.11em; }
+
+.reveal .h3 {
+  font-size: 1.55em; }
+
+.reveal .h4 {
+  font-size: 1em; }
+
+.reveal .h1 {
+  text-shadow: none; }
+
+
+/*********************************************
+ * BLOCKQUOTES
+ *********************************************/
+.reveal blockquote p {
+  text-align: left;
+  padding: 0 20px;
+}
+
+.reveal blockquote footer {
+  text-align: right;
+  padding: 0 20px 20px 0;
+}
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img.bare {
+  background: none;
+  box-shadow: none;
+  border: none;
+}
